@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Co</title>
+    <link rel="stylesheet" href="/CSS/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="logo">SHOP.CO</div>
+
+                <nav class="nav-links">
+                    <ul>
+                        <li><a href="#">Shop <i class="fa-solid fa-chevron-down"></i></a></li>
+                        <li><a href="#onSale">On Sale</a></li>
+                        <li><a href="#new-arrivals">New Arrivals</a></li>
+                        <li><a href="#brands">Brands</a></li>
+                    </ul>
+                </nav>
+
+                <div class="search-bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search for products...">
+                </div>
+
+                <div class="user-actions">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="#"><i class="fa-regular fa-circle-user"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero__wrapper">
+                <div class="hero-content">
+                    <h1>FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
+                    <p>Browse through our diverse range of meticulously crafted garments, designed to bring out your
+                        individuality and cater to your sense of style.</p>
+
+                    <button class="shop-btn">Shop Now</button>
+
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h2>200+</h2>
+                            <span>International Brands</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <h2>2,000+</h2>
+                            <span>High-Quality Products</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <h2>30,000+</h2>
+                            <span>Happy Customers</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-images">
+                    <img src="/assets/bolaqiz.png" alt="Models" class="main-img">
+                    <div class="star star-small">✦</div>
+                    <div class="star star-large">✦</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="brands-bar" id="brands">
+        <div class="brand__wrapper">
+            <div class="brand-item versace">VERSACE</div>
+            <div class="brand-item zara">ZARA</div>
+            <div class="brand-item gucci">GUCCI</div>
+            <div class="brand-item prada">PRADA</div>
+            <div class="brand-item calvin-klein">Calvin Klein</div>
+        </div>
+    </section>
+
+    <section class="new-arrivals" id="new-arrivals">
+        <div class="container">
+            <h2 class="new-arrivals__title">NEW ARRIVALS</h2>
+
+            <div class="new-arrivals__grid">
+                <!-- Card 1 -->
+                <div class="product-card">
+                    <div class="product-card__image-wrapper">
+                        <img src="/assets/Tshirt.png" alt="T-shirt" class="product-card__image">
+                    </div>
+                    <h3 class="product-card__name">T-shirt with Tape Details</h3>
+                    <div class="product-card__rating">
+                        <span class="product-card__stars">★★★★☆</span>
+                        <span class="product-card__score">4.5/5</span>
+                    </div>
+                    <div class="product-card__price-box">
+                        <span class="product-card__price">$120</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card__image-wrapper">
+                        <img src="/assets/Jens.png" alt="Jeans" class="product-card__image">
+                    </div>
+                    <h3 class="product-card__name">Skinny Fit Jeans</h3>
+                    <div class="product-card__rating">
+                        <span class="product-card__stars">★★★☆☆</span>
+                        <span class="product-card__score">3.5/5</span>
+                    </div>
+                    <div class="product-card__price-box">
+                        <span class="product-card__price">$240</span>
+                        <span class="product-card__price product-card__price--old">$260</span>
+                        <span class="product-card__badge product-card__badge--discount">-20%</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card__image-wrapper">
+                        <img src="/assets/rubashka.png" alt="Checkered Shirt" class="product-card__image">
+                    </div>
+                    <h3 class="product-card__name">Checkered Shirt</h3>
+                    <div class="product-card__rating">
+                        <span class="product-card__stars">★★★★☆</span>
+                        <span class="product-card__score">4.5/5</span>
+                    </div>
+                    <div class="product-card__price-box">
+                        <span class="product-card__price">$180</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card__image-wrapper">
+                        <img src="/assets/orangeTshirt.png" alt="Sleeve Striped T-shirt" class="product-card__image">
+                    </div>
+                    <h3 class="product-card__name">Sleeve Striped T-shirt</h3>
+                    <div class="product-card__rating">
+                        <span class="product-card__stars">★★★★☆</span>
+                        <span class="product-card__score">4.5/5</span>
+                    </div>
+                    <div class="product-card__price-box">
+                        <span class="product-card__price">$130</span>
+                        <span class="product-card__price product-card__price--old">$160</span>
+                        <span class="product-card__badge product-card__badge--discount">-30%</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="new-arrivals__actions">
+                <button class="new-arrivals__btn-view">View All</button>
+            </div>
+        </div>
+    </section>
+
+    <p class="line"></p>
+
+    <section class="top-selling" id="onSale">
+        <div class="container">
+            <h2 class="top-selling__title">TOP SELLING</h2>
+
+            <div class="top-selling__grid">
+                <div class="product-card">
+                    <div class="product-card__image-wrapper">
+                        <img src="/assets/yashilRubashka.png" alt="Vertical Striped Shirt" class="product-card__image">
+                    </div>
+                    <h3 class="product-card__name">Vertical Striped Shirt</h3>
+                    <div class="product-card__rating">
+                        <span class="product-card__stars">★★★★★</span>
+                        <span class="product-card__score">5.0/5</span>
+                    </div>
+                    <div class="product-card__price-box">
+                        <span class="product-card__price">$212</span>
+                        <span class="product-card__price product-card__price--old">$232</span>
+                        <span class="product-card__badge product-card__badge--discount">-20%</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card__image-wrapper">
+                        <img src="/assets/olovTshirt.png" alt="Courage Graphic T-shirt" class="product-card__image">
+                    </div>
+                    <h3 class="product-card__name">Courage Graphic T-shirt</h3>
+                    <div class="product-card__rating">
+                        <span class="product-card__stars">★★★★☆</span>
+                        <span class="product-card__score">4.0/5</span>
+                    </div>
+                    <div class="product-card__price-box">
+                        <span class="product-card__price">$145</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card__image-wrapper">
+                        <img src="/assets/kokShort.png" alt="Loose Fit Bermuda Shorts" class="product-card__image">
+                    </div>
+                    <h3 class="product-card__name">Loose Fit Bermuda Shorts</h3>
+                    <div class="product-card__rating">
+                        <span class="product-card__stars">★★★☆☆</span>
+                        <span class="product-card__score">3.0/5</span>
+                    </div>
+                    <div class="product-card__price-box">
+                        <span class="product-card__price">$80</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card__image-wrapper">
+                        <img src="/assets/qoraShim.png" alt="Faded Skinny Jeans" class="product-card__image">
+                    </div>
+                    <h3 class="product-card__name">Faded Skinny Jeans</h3>
+                    <div class="product-card__rating">
+                        <span class="product-card__stars">★★★★☆</span>
+                        <span class="product-card__score">4.5/5</span>
+                    </div>
+                    <div class="product-card__price-box">
+                        <span class="product-card__price">$210</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top-selling__actions">
+                <button class="top-selling__btn-view">View All</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="style-browse">
+        <div class="style-browse__container">
+            <h2 class="style-browse__title">BROWSE BY DRESS STYLE</h2>
+
+            <div class="style-browse__grid">
+                <div class="style-card style-card--small">
+                    <h3 class="style-card__title">Casual</h3>
+                    <img class="style-card__img1" src="/assets/achigarik.png" alt="Casual" class="style-card__image">
+                </div>
+
+                <div class="style-card style-card--large">
+                    <h3 class="style-card__title">Formal</h3>
+                    <img class="style-card__img2" src="/assets/kastimli.png" alt="Formal" class="style-card__image">
+                </div>
+            </div>
+            <div class="style-browse__grid2">
+                <div class="style-card style-card--large">
+                    <h3 class="style-card__title">Party</h3>
+                    <img class="style-card__img3" src="/assets/qiz.png" alt="Party" class="style-card__image">
+                </div>
+
+                <div class="style-card style-card--small">
+                    <h3 class="style-card__title">Gym</h3>
+                    <img class="style-card__img4" src="/assets/kachok.png" alt="Gym" class="style-card__image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="container">
+            <!-- Header qismi: Sarlavha va Navigatsiya strelkalari -->
+            <div class="reviews__header">
+                <h2 class="reviews__title">OUR HAPPY CUSTOMERS</h2>
+                <div class="reviews__arrows">
+                    <button class="reviews__arrow reviews__arrow--prev">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M19 12H5M12 19l-7-7 7-7" />
+                        </svg>
+                    </button>
+                    <button class="reviews__arrow reviews__arrow--next">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="reviews__scroller">
+                <div class="review-card">
+                    <div class="review-card__stars">★★★★★</div>
+                    <div class="review-card__user">
+                        <span class="review-card__name">Sarah M.</span>
+                        <span class="review-card__verify-icon">✔</span>
+                    </div>
+                    <p class="review-card__text">
+                        "I'm blown away by the quality and style of the clothes I received from Shop.co. From casual
+                        wear to elegant dresses, every piece I've bought has exceeded my expectations."
+                    </p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-card__stars">★★★★★</div>
+                    <div class="review-card__user">
+                        <span class="review-card__name">Alex K.</span>
+                        <span class="review-card__verify-icon">✔</span>
+                    </div>
+                    <p class="review-card__text">
+                        "Finding clothes that align with my personal style used to be a challenge until I discovered
+                        Shop.co. The range of options they offer is truly remarkable..."
+                    </p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-card__stars">★★★★★</div>
+                    <div class="review-card__user">
+                        <span class="review-card__name">James L.</span>
+                        <span class="review-card__verify-icon">✔</span>
+                    </div>
+                    <p class="review-card__text">
+                        "As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled
+                        upon Shop.co. The selection of clothes is not only diverse but also on-point..."
+                    </p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-card__stars">★★★★★</div>
+                    <div class="review-card__user">
+                        <span class="review-card__name">Mooen.</span>
+                        <span class="review-card__verify-icon">✔</span>
+                    </div>
+                    <p class="review-card__text">
+                        "As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled
+                        upon Shop.co. The selection of clothes is not only diverse but also on-point..."
+                    </p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-card__stars">★★★★★</div>
+                    <div class="review-card__user">
+                        <span class="review-card__name">Sarah M.</span>
+                        <span class="review-card__verify-icon">✔</span>
+                    </div>
+                    <p class="review-card__text">
+                        "As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled
+                        upon Shop.co. The selection of clothes is not only diverse but also on-point..."
+                    </p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-card__stars">★★★★★</div>
+                    <div class="review-card__user">
+                        <span class="review-card__name">James L.</span>
+                        <span class="review-card__verify-icon">✔</span>
+                    </div>
+                    <p class="review-card__text">
+                        "As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled
+                        upon Shop.co. The selection of clothes is not only diverse but also on-point..."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="newsletter">
+            <div class="newsletter__container">
+                <h2 class="newsletter__title">STAY UPTO DATE ABOUT OUR LATEST OFFERS</h2>
+                <div class="newsletter__form">
+                    <div class="newsletter__input-group">
+                        <span class="newsletter__icon">✉</span>
+                        <form class="form">
+                            <input type="email" placeholder="Enter your email address" class="newsletter__input">
+                        </form>
+                    </div>
+                    <button class="newsletter__button" type="submit">Subscribe to Newsletter</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__main">
+            <div class="container">
+                <div class="footer__grid">
+                    <div class="footer__about">
+                        <h2 class="footer__logo">SHOP.CO</h2>
+                        <p class="footer__description">
+                            We have clothes that suits your style and which you’re proud to wear. From women to men.
+                        </p>
+                        <div class="footer__socials">
+                            <a href="#" class="footer__social-link"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#" class="footer__social-link"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="footer__social-link"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="footer__social-link"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="footer__nav-group">
+                        <h3 class="footer__nav-title">COMPANY</h3>
+                        <ul class="footer__nav-list">
+                            <li><a href="#" class="footer__nav-link">About</a></li>
+                            <li><a href="#" class="footer__nav-link">Features</a></li>
+                            <li><a href="#" class="footer__nav-link">Works</a></li>
+                            <li><a href="#" class="footer__nav-link">Career</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__nav-group">
+                        <h3 class="footer__nav-title">HELP</h3>
+                        <ul class="footer__nav-list">
+                            <li><a href="#" class="footer__nav-link">Customer Support</a></li>
+                            <li><a href="#" class="footer__nav-link">Delivery Details</a></li>
+                            <li><a href="#" class="footer__nav-link">Terms & Conditions</a></li>
+                            <li><a href="#" class="footer__nav-link">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__nav-group">
+                        <h3 class="footer__nav-title">FAQ</h3>
+                        <ul class="footer__nav-list">
+                            <li><a href="#" class="footer__nav-link">Account</a></li>
+                            <li><a href="#" class="footer__nav-link">Manage Deliveries</a></li>
+                            <li><a href="#" class="footer__nav-link">Orders</a></li>
+                            <li><a href="#" class="footer__nav-link">Payments</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__nav-group">
+                        <h3 class="footer__nav-title">RESOURCES</h3>
+                        <ul class="footer__nav-list">
+                            <li><a href="#" class="footer__nav-link">Free eBooks</a></li>
+                            <li><a href="#" class="footer__nav-link">Development Tutorial</a></li>
+                            <li><a href="#" class="footer__nav-link">How to - Blog</a></li>
+                            <li><a href="#" class="footer__nav-link">Youtube Playlist</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__bottom">
+                    <p class="footer__copyright">Shop.co © 2000-2023, All Rights Reserved</p>
+                    <div class="footer__payments">
+                        <img src="/assets/Visa.png" alt="Visa">
+                        <img src="/assets/Dumaloqlar.png" alt="Mastercard">
+                        <img src="/assets/PayPal.png" alt="Paypal">
+                        <img src="/assets/Iphone.png" alt="Apple Pay">
+                        <img src="/assets/GOOGLE.png" alt="Google Pay">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/JS/index.js"></script>
+</body>
+
+</html>
