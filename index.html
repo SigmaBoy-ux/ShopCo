@@ -7,6 +7,8 @@
     <title>Shop Co</title>
     <link rel="stylesheet" href="/CSS/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
 </head>
 
 <body>
@@ -361,14 +363,12 @@
         <div class="newsletter">
             <div class="newsletter__container">
                 <h2 class="newsletter__title">STAY UPTO DATE ABOUT OUR LATEST OFFERS</h2>
-                <div class="newsletter__form">
-                    <div class="newsletter__input-group">
+                <div class="newsletter__wrapper">
+                    <form class="newsletter__form">
                         <span class="newsletter__icon">✉</span>
-                        <form class="form">
-                            <input type="email" placeholder="Enter your email address" class="newsletter__input">
-                        </form>
-                    </div>
-                    <button class="newsletter__button" type="submit">Subscribe to Newsletter</button>
+                        <input type="email" placeholder="Enter your email address" class="newsletter__input">
+                        <button class="newsletter__button" type="submit">Subscribe to Newsletter</button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -445,6 +445,8 @@
     </footer>
 
     <script src="/JS/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </body>
 
 </html>
