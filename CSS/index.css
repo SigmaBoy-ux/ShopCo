@@ -291,6 +291,8 @@ body {
 }
 
 .product-card__image-wrapper {
+    overflow: hidden;
+    object-fit: cover;
     background-color: #f0eeed;
     border-radius: 20px;
     padding: 20px;
@@ -303,6 +305,7 @@ body {
 
 .product-card__image {
     max-width: 100%;
+    object-fit: cover;
     height: auto;
 }
 
@@ -357,7 +360,8 @@ body {
 }
 
 .new-arrivals__btn-view:hover {
-    background-color: #f0f0f0;
+    background-color: #000;
+    color: #fff;
 }
 
 .line {
@@ -654,18 +658,18 @@ body {
     gap: 12px;
 }
 
-.name{
+.name {
     width: 180px;
     border-radius: 12px;
 
 }
 
-.phone{
+.phone {
     width: 180px;
     border-radius: 12px;
 }
 
-.message{
+.message {
     position: absolute;
     top: 0px;
     right: 160px;
@@ -676,7 +680,7 @@ body {
 
 }
 
-.newsletter__icon{
+.newsletter__icon {
     color: #00000066;
     font-size: 18px;
 
