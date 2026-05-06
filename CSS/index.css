@@ -638,7 +638,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    width: 400px;
+    width: 550px;
 }
 
 .newsletter__input {
@@ -656,23 +656,23 @@ body {
 
 .name{
     width: 180px;
-    border-radius: 62px;
+    border-radius: 12px;
 
 }
 
 .phone{
     width: 180px;
-    border-radius: 62px;
+    border-radius: 12px;
 }
 
 .message{
     position: absolute;
     top: 0px;
-    right: 10px;
+    right: 160px;
 
     width: 200px;
     height: 100px;
-    border-radius: 22px;
+    border-radius: 12px;
 
 }
 
@@ -690,7 +690,7 @@ body {
     background-color: #fff;
     color: #000;
     border: none;
-    border-radius: 62px;
+    border-radius: 12px;
     padding: 12px;
     font-weight: 600;
     cursor: pointer;
