@@ -505,7 +505,6 @@ body {
 .reviews {
     padding: 80px 0;
     overflow: hidden;
-    /* Chekkadan chiqib ketgan kartochkalarni yashirish uchun */
 }
 
 .reviews__header {
