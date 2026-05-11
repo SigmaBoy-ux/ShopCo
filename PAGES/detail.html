@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop.co - Product Detail</title>
+    <link rel="stylesheet" href="/CSS/detail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header-content">
+            <h1 class="logo">SHOP.CO</h1>
+            <nav class="nav-links">
+                <a href="#">On Sale</a>
+                <a href="#">New Arrivals</a>
+                <a href="#">Brands</a>
+            </nav>
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search for products...">
+            </div>
+            <div class="user-icons">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-circle-user"></i>
+            </div>
+        </div>
+    </header>
+
+    <p class="line"></p>
+
+    <div class="container">
+        <nav class="breadcrumb">
+            Home > Shop > Men > <span class="active">T-shirts</span>
+        </nav>
+
+        <main class="product-wrapper">
+            <div class="gallery">
+                <div class="thumbnail-list">
+                    <img src="/assets/oldiTaraf.png" class="thumb active" alt="thumb1">
+                    <img src="/assets/orqaTaraf.png" class="thumb" alt="thumb2">
+                    <img src="/assets/odamBilan.png" class="thumb" alt="thumb3">
+                </div>
+                <div class="main-img-box">
+                    <img src="/assets/oldiTaraf.png" id="mainImage" alt="Main Product">
+                </div>
+            </div>
+
+            <div class="details">
+                <h1 class="product-name">One Life Graphic<br> T-shirt</h1>
+
+                <div class="rating-box">
+                    <span class="stars">★★★★☆</span>
+                    <span class="score">4.5/5</span>
+                </div>
+
+                <div class="price-box">
+                    <span class="current-price">$260</span>
+                    <span class="old-price">$300</span>
+                    <span class="discount">-40%</span>
+                </div>
+
+                <p class="description">
+                    This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric,
+                    it offers superior comfort and style.
+                </p>
+
+                <hr>
+
+                <div class="selection-group">
+                    <p>Select Colors</p>
+                    <div class="colors">
+                        <div class="color-circle active" style="background-color: #4F4631;"></div>
+                        <div class="color-circle" style="background-color: #314F4A;"></div>
+                        <div class="color-circle" style="background-color: #31344F;"></div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="selection-group">
+                    <p>Choose Size</p>
+                    <div class="sizes">
+                        <button class="size-btn">Small</button>
+                        <button class="size-btn">Medium</button>
+                        <button class="size-btn active">Large</button>
+                        <button class="size-btn">X-Large</button>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="actions">
+                    <div class="counter">
+                        <button id="minus">-</button>
+                        <span id="count">1</span>
+                        <button id="plus">+</button>
+                    </div>
+                    <button class="add-btn">Add to Cart</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="/JS/detail.js"></script>
+</body>
+
+</html>

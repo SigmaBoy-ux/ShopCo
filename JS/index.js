@@ -109,9 +109,10 @@ const cardsEl = document.querySelector(".cards");
 function renderProducts(arr, parent) {
     parent.innerHTML = arr
         .map((product) => `
+                    <a class="product-link" href="/PAGES/detail.html" target="_blank">
                         <div class="product-card">
                     <div class="product-card__image-wrapper">
-                        <img src="${product.images[0]}" alt="${product.name}" class="product-card__image">
+                        <img src="${product.images[0]}" alt="" class="product-card__image">
                     </div>
                     <h3 class="product-card__name">${product.title}</h3>
                     <div class="product-card__rating">
@@ -119,9 +120,11 @@ function renderProducts(arr, parent) {
                         <span class="product-card__score">4.5/5</span>
                     </div>
                     <div class="product-card__price-box">
-                        <span class="product-card__price">$${product.price.toFixed(2)}</span>
+                        <span class="product-card__price">$${product.price}</span>
                     </div>
                 </div>
+            </a>
     `)
-    .join("");
+        .join("");
 }
+

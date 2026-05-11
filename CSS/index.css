@@ -286,6 +286,11 @@ body {
     margin-bottom: 30px;
 }
 
+.product-link {
+    text-decoration: none;
+    color: #000;
+}
+
 .product-card {
     text-align: left;
 }
